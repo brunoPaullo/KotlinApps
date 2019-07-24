@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity(), TextWatcher {
     private var textAge: TextView? = null
 
     private var name: String? = null
-    private var age: Int? = 0
+    private var age: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,7 +35,10 @@ class MainActivity : AppCompatActivity(), TextWatcher {
 
     override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
         // On new version
-        textView_Name?.text = editText_name?.text.toString()
-        textView_Age?.text = editText_age?.text.toString()
+        name = editText_name?.text.toString()
+        age = editText_age?.text.toString()
+
+        if (!name.isNullOrEmpty()) textView_Name?.text = name
+        if (!age.isNullOrEmpty()) textView_Age?.text = age
     }
 }
