@@ -3,4 +3,15 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- Buttons -->
+    <color name="colorBtnDanger">#f44336</color>
+    <color name="colorBtnDefault">#999</color>
+    <color name="colorBtnInfo">#00bcd4</color>
+    <color name="colorBtnPrimary">#9c27b0</color>
+    <color name="colorBtnSuccess">#4caf50</color>
+    <color name="colorBtnWarning">#ff9800</color>
+
+    <!-- Buttons -->
+    <color name="colorTextDefault">#fff</color>
 </resources>

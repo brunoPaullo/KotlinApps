@@ -3,4 +3,5 @@
     <string name="app_name">MyFirstKotlinApp</string>
     <string name="app_person_age">Edad</string>
     <string name="app_person_name">Nombre</string>
+    <string name="app_button_execute">Ejecutar</string>
 </resources>
